@@ -23,6 +23,8 @@ installed suit or palette mod, and keeps it up to date by itself at every launch
 Linux (Proton): also set the Steam launch options to `WINEDLLOVERRIDES="version=n,b" %command%`
 (Heroic: environment variable `WINEDLLOVERRIDES` = `version=n,b`).
 
+Tested on Windows and on Linux (Steam with Proton).
+
 When something changed (mod added, removed or updated, or a game update) a small window shows the rebuild for about
 10 seconds before the game starts; otherwise the check takes a fraction of a second. The first rebuild downloads the
 Oodle decompression library once (see Credits). Log: `%LOCALAPPDATA%\MidnightSunsSuitRegistry\SuitRegistry.log`.
